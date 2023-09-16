@@ -1,0 +1,116 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.header {
+    letter-spacing: 8px;
+    font-size: 5em;
+    text-align: center;
+    padding: 0.3em 0px;
+    background-color: #fdb964;
+    font-family: 'Zen Tokyo Zoo', cursive;
+}
+
+.fs {
+    font-size: 0.8em;
+}
+
+.formDiv {
+    font-size: 1.5em;
+    display: flex;
+    padding: 1.1em 0px;
+    background: #e96213;
+    justify-content: center;
+    font-family: 'Bai Jamjuree', sans-serif;
+}
+
+.todo {
+    margin: 0 1em;
+    font-size: 1em;
+    font-weight: bold;
+}
+
+.margin {
+    margin: 0 0.7em;
+}
+
+.input {
+    border: none;
+    font-weight: 600;
+    background-color: #fdc681;
+    padding: 1em 2em;
+    border-radius: 1.5em;
+    outline: none;
+}
+
+.clrBlack {
+    color: #3f3c3c;
+}
+
+.clrBlue {
+    background-color: #42a8b3;
+}
+
+.listDiv {
+    background-color: #830267;
+    min-height: 20.5em;
+    display: flex;
+    padding: 2em;
+    text-align: center;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.itemList {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.item {
+    width: 24%;
+    margin-bottom: 20px;
+    color: #fdc681;
+    font-size: 20px;
+}
+
+.item-name {
+    display: inline-block;
+}
+
+.item-name.checked {
+    text-decoration: line-through;
+}
+
+.messageDiv {
+    background-color: #42a8b3;
+    text-align: center;
+    padding: 1.4em 0;
+    font-size: 1.3em;
+    font-weight: 600;
+    font-family: 'Bai Jamjuree', sans-serif;
+    font-style: italic;
+    color: #513838;
+}
+
+.clrBtn {
+    color: #3f3c3c;
+}
+
+.marginRight {
+    margin-right: 5px;
+}
+
+.marginLeft {
+    margin-left: 20px;
+}
+
+input[type="checkbox"] {
+
+    transform: scale(1.5);
+    width: 2.5em;
+    height: 1.2em;
+    background-color: #fff;
+}
